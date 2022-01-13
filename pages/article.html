@@ -7,6 +7,7 @@
     <title>Document</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header class="navbar navbar-expand-lg bg-dark">
@@ -67,13 +68,71 @@
                 </ul>
             </div>
         </nav>
+        <!--Subscribe button-->
+        <div id="subscribe-container">
+          <button class="shadow bg-dark" id="subscribe-btn" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-bell-fill link-secondary" id="bell-icon" viewBox="0 0 16 16">
+              <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+            </svg>
+          </button>
+        </div>
     </header>
-    <main class="container-fluid py-5">
-        <div class="d-flex flex-column py-5 px-3">
-          <h2 class="display-1 pt-4">Some article tittle</h2>
+    <main class="container py-5">
+        <div class="d-flex flex-column py-5 px-2">
+          <h2 class="display-1 fw-bold pt-4">Some article tittle</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sunt quaerat quos.</p>
         </div>
+        <div class="container">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quasi ratione quisquam in blanditiis commodi provident soluta. Consectetur sapiente fugit hic, nulla aut eveniet vitae deserunt non cumque dolore reprehenderit, nihil, tenetur minus quam? Blanditiis quo, error, sint suscipit odio, voluptas minima veniam accusamus enim quisquam delectus laborum. Praesentium aliquam mollitia officiis impedit maiores delectus voluptate quae nihil sit omnis, ad sint molestias voluptatibus sapiente? Velit vero quia aperiam excepturi totam quis obcaecati ea cupiditate eaque rem unde possimus hic nesciunt voluptatum, vel consequatur id accusamus ut quam temporibus? Odio ipsum facilis ad repudiandae est, quod tempora tenetur, ipsam saepe ratione laboriosam. Sapiente sequi est sed ipsa, recusandae tempore vel.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eum aut ipsam labore veniam! Libero vel similique aut, numquam necessitatibus sit possimus, veniam saepe fugit voluptas cumque consequuntur eum rerum quia dicta vitae nisi aliquid laudantium consectetur beatae repudiandae explicabo! Eum quod hic aperiam sapiente iste, id, veritatis voluptatibus omnis dolorum numquam eveniet iure quia asperiores vitae soluta vel earum nulla? Magni itaque molestiae delectus. Quis quam laboriosam at cum consequatur minus quo ratione alias corrupti, tenetur voluptas eos a nam nesciunt saepe repellat dicta unde molestias? Deserunt assumenda, illum corrupti sed fuga fugit molestias, odit, explicabo illo veniam quisquam eligendi. Sapiente facere nemo cupiditate at laudantium possimus modi, provident quis eum minus est rerum in consequatur dicta quas iste incidunt vitae doloremque quia, praesentium dolorem enim nisi. Ipsum possimus quod consequuntur alias molestias et quasi, officia incidunt sapiente molestiae.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit inventore itaque omnis assumenda, provident, officia dicta modi necessitatibus amet facere culpa neque praesentium distinctio. Atque ut quidem sit animi numquam voluptas ipsam qui incidunt quas ab ea et ad culpa mollitia maiores fugiat quibusdam, repellat repudiandae impedit, est esse. Doloribus consectetur vel excepturi, repudiandae nesciunt hic quisquam accusamus reprehenderit asperiores, aperiam officia, aliquid eius. Quasi repellat esse magni ratione qui aliquam amet reiciendis optio, maxime fugiat commodi consequatur sint eveniet ipsum ullam eos dignissimos deserunt aspernatur iste rerum at quisquam incidunt odio. Non recusandae neque eaque obcaecati ab temporibus exercitationem.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum nobis, neque ab ut repellendus eos id quod optio odit earum ratione voluptatem asperiores, fuga nulla nemo. Debitis fuga nulla rerum esse est numquam dolore quia enim voluptas molestiae officia blanditiis consequuntur facere, obcaecati hic nemo perferendis totam quidem voluptates minus.</p>
+        </div>
     </main>
+    <!--Blogs section-->
+    <section class="container-fluid py-5">
+      <div class="d-flex justify-content-center p-3">
+        <h2 class="display-5 mt-2">Read more</h2>
+      </div>
+      <div class="flex-column mb-2">
+        <article class="container">
+          <div class="row border rounded shadow p-2">
+            <div class="d-flex align-items-center col-md-6 col-lg-4">
+              <img class="img-fluid" src="../media/oscar-helgstrand-HPwbniZ9g6Q-unsplash.jpg" alt="article_image">
+            </div>
+            <div class="col">
+              <h3 class="display-4 fw-bold">Some article tittle</h3>
+              <p class="card-text mb-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur nesciunt tenetur facilis inventore dignissimos, sed labore impedit? Quia esse illum, iste assumenda dolore incidunt similique saepe, adipisci inventore doloremque corrupti atque odit libero fuga, doloribus porro. Voluptas...</p>
+              <a href="./pages/article.html" class="streched-link">Continue reading</a>
+            </div>
+          </div>
+        </article>
+        <article class="container mt-4">
+          <div class="row border rounded shadow p-2">
+            <div class="d-flex align-items-center col-md-6 col-lg-4">
+              <img class="img-fluid" src="../media/oscar-helgstrand-HPwbniZ9g6Q-unsplash.jpg" alt="article_image">
+            </div>
+            <div class="col">
+              <h3 class="display-4 fw-bold">Some article tittle</h3>
+              <p class="card-text mb-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur nesciunt tenetur facilis inventore dignissimos, sed labore impedit? Quia esse illum, iste assumenda dolore incidunt similique saepe, adipisci inventore doloremque corrupti atque odit libero fuga, doloribus porro. Voluptas...</p>
+              <a href="./pages/article.html" class="streched-link">Continue reading</a>
+            </div>
+          </div>
+        </article>
+        <article class="container mt-4">
+          <div class="row border rounded shadow p-2">
+            <div class="d-flex align-items-center col-md-6 col-lg-4">
+              <img class="img-fluid" src="../media/oscar-helgstrand-HPwbniZ9g6Q-unsplash.jpg" alt="article_image">
+            </div>
+            <div class="col">
+              <h3 class="display-4 fw-bold">Some article tittle</h3>
+              <p class="card-text mb-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur nesciunt tenetur facilis inventore dignissimos, sed labore impedit? Quia esse illum, iste assumenda dolore incidunt similique saepe, adipisci inventore doloremque corrupti atque odit libero fuga, doloribus porro. Voluptas...</p>
+              <a href="./pages/article.html" class="streched-link">Continue reading</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
     <footer class="container-fluid bg-dark pt-5">
       <div class="d-flex row  justify-content-around mb-2 me-0">
     <!--navegation link-->
@@ -81,16 +140,16 @@
           <h4 class="text-light px-2">Links</h4>
           <ul class="navbar-nav flex-column">
             <li class="nav-item">
-                <a class="nav-link p-2 text-white" href="./index.html">Home</a>
+                <a class="nav-link p-2 text-white" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link p-2 text-white" href="./pages/blog.html">Blog</a>
+                <a class="nav-link p-2 text-white" href="./blog.html">Blog</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link p-2 text-white" href="./pages/about.html">About</a>
+                <a class="nav-link p-2 text-white" href="./about.html">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link p-2 text-white" href="./pages/contact.html">Contact</a>
+                <a class="nav-link p-2 text-white" href="./contact.html">Contact</a>
             </li>
         </ul>
         </div>
@@ -152,6 +211,6 @@
       <div class="container-fluid p-2">
         <p class="text-center text-light">2021 &copy; Daniel Pared.</p>
       </div>
-  </footer>
+    </footer>
 </body>
 </html>
